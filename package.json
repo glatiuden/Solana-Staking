@@ -1,0 +1,22 @@
+{
+  "name": "staking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "validators": "node mains/get_validators.js",
+    "create": "node mains/create_stake_account.js",
+    "delegate": "node mains/delegate_stake.js",
+    "deactivate": "node mains/deactivate_stake.js",
+    "withdraw": "node mains/withdraw_stake.js",
+    "delegators": "node mains/get_delegators_by_validator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.64.0"
+  }
+}
